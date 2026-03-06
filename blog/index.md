@@ -3,7 +3,6 @@ layout: default
 title: blog
 permalink: /blog/
 ---
-<ul>
  <p>blog</p>
  <article class="postpreview">
  {% for post in site.posts %}
@@ -17,4 +16,4 @@ permalink: /blog/
     </p>
   {% endfor %}
  </article>
-  </ul>
+ 

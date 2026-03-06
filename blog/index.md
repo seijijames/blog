@@ -4,6 +4,7 @@ title: blog
 permalink: /blog/
 ---
 <ul>
+ <p>blog</p>
  <article class="postpreview">
  {% for post in site.posts %}
     <h3>

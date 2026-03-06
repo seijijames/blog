@@ -1,6 +1,7 @@
 ---
 layout: default
 title: first post
+summary: introduction (but in french)
 ---
 
 hello internet...

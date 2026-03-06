@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% if page.title %}{{ page.title }} | {% endif %}Seiji James</title>
+</head>
+<body>
+  <div class="site">
+    <aside class="sidebar">
+      <h1><a href="/">seiji james</a></h1>
+      <p> blog / about </p>
+
+      <nav>
+        <ul>
+          <li><a href="/">home</a></li>
+          <li><a href="/about/">about</a></li>
+          <li><a href="/blog/">blog</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="content">
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>

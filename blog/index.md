@@ -4,8 +4,13 @@ title: blog
 permalink: /blog/
 ---
 
-# blog
+<h1>blog</h1>
 
-posts coming soon.
-
-this will show all blog posts later.
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      — {{ post.date | date: "%B %-d, %Y" }}
+    </li>
+  {% endfor %}
+</ul>

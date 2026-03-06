@@ -3,9 +3,6 @@ layout: post
 title: blog
 permalink: /blog/
 ---
-
-<h1>blog</h1>
-
 <ul>
  <article class="post">
  {% for post in site.posts %}

@@ -7,19 +7,23 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="site-title">seiji james ☆</div>
+
+      <nav class="topnav">
+        <a href="{{ '/' | relative_url }}">home</a>
+        <a href="{{ '/about/' | relative_url }}">about</a>
+        <a href="{{ '/blog/' | relative_url }}">blog</a>
+      </nav>
+    </div>
+  </header>
+  
   <div class="site">
     <aside class="sidebar">
       <h1>seiji james</h1>
       <p class="sidebar-tagline">hello internet</p>
-
-     <nav>
-  <h2 class="sidebar-heading">navigate</h2>
-  <ul>
-    <li><a href="{{ '/' | relative_url }}">home</a></li>
-    <li><a href="{{ '/about/' | relative_url }}">about</a></li>
-    <li><a href="{{ '/blog/' | relative_url }}">blog</a></li>
-  </ul>
-</nav>
       
       <div class="sidebar-box">
     <h2>status</h2>

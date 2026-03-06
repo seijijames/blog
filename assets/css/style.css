@@ -102,19 +102,23 @@ p, li {
 
 .topnav {
   display: flex;
-  gap: 12px;
+  gap: 0;
+  align-items: center;
 }
 
 .topnav a {
   text-decoration: none;
-  padding: 8px 12px;
-  background: white;
-  border: 2px solid #ff9bd1;
-  display: inline-block;
+  padding: 6px 10px;
+}
+
+.topnav a:not(:last-child)::after {
+  content: "|";
+  margin-left: 10px;
+  opacity: 0.6;
 }
 
 .topnav a:hover {
-  transform: translateY(-2px);
+  text-decoration: underline;
 }
 
 

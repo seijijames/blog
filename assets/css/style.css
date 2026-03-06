@@ -1,7 +1,10 @@
 body {
   margin: 0;
   font-family: Verdana, Arial, sans-serif;
-  background: #f7d6e8;
+  background-color: #f7d6e8;
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,0.7) 2px, transparent 2px);
+  background-size: 28px 28px;
 }
 
 .site {
@@ -74,6 +77,3 @@ p, li {
   font-size: 1rem;
 }
 
-.sidebar-box + .sidebar-box {
-  margin-top: 16px;
-}

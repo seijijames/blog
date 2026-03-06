@@ -8,14 +8,14 @@
 <body>
   <div class="site">
     <aside class="sidebar">
-      <h1><a href="/">seiji james</a></h1>
-      <p> blog / about </p>
+      <h1><a href="{{ '/' | relative_url }}">seiji james</a></h1>
+      <p>blog / about</p>
 
       <nav>
         <ul>
-          <li><a href="/">home</a></li>
-          <li><a href="/about/">about</a></li>
-          <li><a href="/blog/">blog</a></li>
+          <li><a href="{{ '/' | relative_url }}">home</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">about</a></li>
+          <li><a href="{{ '/blog/' | relative_url }}">blog</a></li>
         </ul>
       </nav>
     </aside>

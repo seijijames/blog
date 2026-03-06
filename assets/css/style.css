@@ -104,12 +104,19 @@ nav a:hover {
   transform: translateX(4px);
 }
 
-.post-preview {
-  background: white;
+.postpreview {
+  background: #ff9bd1;
   border: 3px solid #ff9bd1;
   padding: 24px;
   max-width: 700px;
   box-shadow: 6px 6px 0 #ffb6da;
+}
+
+.post {
+  background: white;
+  border: 3px solid #ff9bd1;
+  padding: 24px;
+  max-width: 700px;
 }
 
 .post-header h1 {

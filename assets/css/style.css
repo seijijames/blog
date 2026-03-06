@@ -104,8 +104,8 @@ nav a:hover {
   transform: translateX(4px);
 }
 
-article.postpreview {
-  background: black;
+.postpreview {
+  background: white;
   border: 3px solid #ff9bd1;
   padding: 24px;
   max-width: 700px;
